@@ -3,7 +3,7 @@ node(""){
 def MHD = tool name: "maven3.8.6"
 stage('GitClone'){
 sh "echo this is git clone"
-git credentialsId: 'Github-Cred', url: 'https://github.com/jomacs-it/web-app.git'
+git credentialsId: 'Github-Cred', url: 'https://github.com/JOMACS-IT/web-app.git'
 }
 stage('Build'){
 sh "echo start of build process"
