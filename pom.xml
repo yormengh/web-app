@@ -101,10 +101,10 @@
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>JOMACS Snapshot Nexus Repository </name>
-	      <url>http://3.141.2.22:8081/repository/webapp-snapshot/</url>
-	    </snapshotRepository>
+               <id>nexus</id>
+               <name>JOMACS Snapshot Nexus Repository </name>
+               <url>http://3.141.2.22:8081/repository/webapp-snapshot/</url> 
+        </snapshotRepository>
 	    
 	</distributionManagement>
 	
